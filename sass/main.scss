@@ -1,0 +1,43 @@
+/*
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+*/
+// _colors.scss
+$background-color: #ffd35c;
+$color-red: #870000;
+$color-green: #77d128;
+$color-blue: #2a99f5;
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 16px;
+    background-color: #ffd35c;
+
+&img {
+        max-width:1400px; 
+        max-height:600px;    
+    }
+
+&h1 {
+        color: $color-green;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+    }
+
+&card-title {
+        color: $color-red;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+    }
+
+&nav-link {
+        color: $color-red;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+    }
+
+@mixin app-background($color) {
+    #{if(&, '&.app-background', '.app-background')} {
+      background-color: $color;
+      color: rgba(#ffd35c, 0.75);
+    }
+}
+  
+} 
