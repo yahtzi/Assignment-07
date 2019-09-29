@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "name": "assignment07",
+    "devDependencies": {
+        "gulp": "latest",
+        "gulp-sass": "latest",
+        "node-sass": "latest"
+    }
+}
